@@ -92,7 +92,8 @@ au BufNewFile *.cpp 0r /home/gafeol/competitive-programming/Header.cpp
 au BUfNewFile *.kt 0r ~/competitive-programming/Header.kt
 
 """ Corretor de Ortografia
-setlocal spell spelllang=pt
+autocmd BufRead,BufNewFile *.md setlocal spell spelllang=pt
+autocmd BufRead,BufNewFile *.tex setlocal spell spelllang=pt
 let spell_auto_type="tex,doc,mail"
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
