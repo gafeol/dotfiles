@@ -97,4 +97,6 @@ autocmd BufRead,BufNewFile *.tex setlocal spell spelllang=pt
 let spell_auto_type="tex,doc,mail"
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
+""" Auto make current file
 
+map <A-c> :make %:r<CR>
