@@ -5,6 +5,8 @@
     editor = nvim
 
 [alias]
-  st = status
-  tree = log --graph --decorate --pretty=oneline --abbrev-commit
-  history = log --pretty=format:'%C(bold)[%h]%Creset %an, %ar:%n %C(yellow bold) %s %Creset' --stat
+    st = status
+    tree = log --graph --decorate --pretty=oneline --abbrev-commit
+    history = log --pretty=format:'%C(bold)[%h]%Creset %an, %ar:%n %C(yellow bold) %s %Creset' --stat
+[help]
+    autocorrect=-1

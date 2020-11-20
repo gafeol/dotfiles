@@ -1,4 +1,6 @@
 set ai si et ts=4 sw=4 sta sm nu rnu
+nnoremap j gj
+nnoremap k gk
 """ plugins
 call plug#begin()
 Plug 'vim-airline/vim-airline'
