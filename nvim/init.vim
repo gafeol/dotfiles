@@ -1,6 +1,4 @@
 set ai si et ts=4 sw=4 sta sm nu rnu
-nnoremap j gj
-nnoremap k gk
 """ plugins
 call plug#begin()
 Plug 'vim-airline/vim-airline'
@@ -87,6 +85,8 @@ let g:go_def_mapping_enabled = 0
 
 """ nerdtree config
 map <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1
 
 """ Headers
 

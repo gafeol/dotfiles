@@ -119,3 +119,9 @@ fi
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export CGO_ENABLED=0
+
+
+alias k='kubectl'
+
+alias open='xdg-open'
