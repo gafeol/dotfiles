@@ -15,6 +15,16 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'SirVer/ultisnips'
 " Snippets are separated from the engine. Add this if you want them:
 Plug 'honza/vim-snippets'
+" Fuzzy file finder on a neovim pop-up window
+Plug 'liuchengxu/vim-clap'
+" JS, Typescript, JSX, TSX, Styled components, GraphQL
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'jparise/vim-graphql'
+
+
 call plug#end()
 
 """ Looks
@@ -36,8 +46,6 @@ let g:gruvbox_termcolors=256
 autocmd VimEnter * hi Normal ctermbg=none
 
 """ UltiSnips
-
-
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'

@@ -1,6 +1,6 @@
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
-alias rm=trash
+#alias rm=trash
 
 kt() {
     if [ -f "$1".kt ]; then

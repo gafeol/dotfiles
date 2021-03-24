@@ -3,7 +3,6 @@
 	name = gafeol
 [core]
     editor = nvim
-
 [alias]
     st = status
     tree = log --graph --decorate --pretty=oneline --abbrev-commit

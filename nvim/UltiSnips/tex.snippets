@@ -87,15 +87,9 @@ snippet td "superscript" iA
 endsnippet
 
 context "math()"
-snippet // "Fraction" iA
-\\frac{$1}{$2}$0
-endsnippet
-
-context "math()"
 snippet '((\d+)|(\d*)(\\)?([A-Za-z]+)((\^|_)(\{\d+\}|\d))*)/' "Fraction" wrA
 \\frac{`!p snip.rv = match.group(1)`}{$1}$0
 endsnippet
-
 
 context "math()"
 priority 1000
@@ -111,10 +105,5 @@ while True:
 	i -= 1
 snip.rv = stripped[0:i] + "\\frac{" + stripped[i+1:-1] + "}"
 `{$1}$0
-endsnippet
-
-context "math()"
-snippet / "Fraction" iA
-\\frac{${VISUAL}}{$1}$0
 endsnippet
 

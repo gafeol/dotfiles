@@ -14,11 +14,7 @@
 					"directory": "/tmp/ccls"
 				}
 			}
-		},
-		"kotlin": {
-            "command": "/home/gafeol/.config/kotlin-language-server/server/build/install/server/bin/kotlin-language-server",
-            "filetypes": ["kotlin"]
-        }
+		}
 	},
 	"suggest.removeDuplicateItems": true
 }
